@@ -1,0 +1,33 @@
+{
+  "name": "react-native-feather",
+  "version": "1.0.0",
+  "description": "React Native component for Feather icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yigithanyucedag/react-native-feather.git"
+  },
+  "keywords": [
+    "icon",
+    "react",
+    "react-native-feather",
+    "react-native",
+    "native",
+    "rn",
+    "feather",
+    "icons"
+  ],
+  "author": "Yiğithan Yücedağ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yigithanyucedag/react-native-feather/issues"
+  },
+  "homepage": "https://github.com/yigithanyucedag/react-native-feather#readme",
+  "peerDependencies": {
+    "react-native": ">=0.46",
+    "react-native-svg": ">=5.3"
+  }
+}
