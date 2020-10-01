@@ -27,7 +27,7 @@ const App = () => {
 Icons can be configured with inline props:
 
 ```javascript
-<Camera stroke="red" fill="#fff" width={32} height={32} />
+<Activity stroke="red" fill="#fff" width={32} height={32} />
 ```
 
 You can also include the whole icon pack:
@@ -36,7 +36,7 @@ You can also include the whole icon pack:
 import * as Icon from "react-native-feather";
 
 const App = () => {
-  return <Icon.Camera />;
+  return <Icon.Activity />;
 };
 ```
 
