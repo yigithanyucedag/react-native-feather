@@ -7,6 +7,8 @@
 
 react-native-feather is a collection of simply beautiful open source icons for React Native. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency and readability.
 
+At its core, Feather is a collection of SVG files. To use SVG files on React Native, [`react-native-svg`](https://github.com/react-native-community/react-native-svg) is needed. This component contains all Feather icons converted to make compatible with [`react-native-svg`](https://github.com/react-native-community/react-native-svg) package.
+
 #### Based on Feather Icons `v4.28.0`
 
 ## Installation
@@ -14,20 +16,28 @@ react-native-feather is a collection of simply beautiful open source icons for R
 1. Ensure sure you've installed [`react-native-svg`](https://github.com/react-native-community/react-native-svg)
 2. `npm i react-native-feather`
 
+### Icons
+
+List of available icons in this component.
+[https://feathericons.com](https://feathericons.com/)
+
 ### Usage
 
+To use icons as component, all icon names is formatted to Pascal Case.
+arrow-up-circle => `<ArrowUpCircle/>`
+
 ```javascript
-import { Activity } from "react-native-feather";
+import { ArrowUpCircle } from "react-native-feather";
 
 const App = () => {
-  return <Activity />;
+  return <ArrowUpCircle />;
 };
 ```
 
 Icons can be configured with inline props:
 
 ```javascript
-<Activity stroke="red" fill="#fff" width={32} height={32} />
+<ArrowUpCircle stroke="red" fill="#fff" width={32} height={32} />
 ```
 
 You can also include the whole icon pack:
@@ -36,7 +46,7 @@ You can also include the whole icon pack:
 import * as Icon from "react-native-feather";
 
 const App = () => {
-  return <Icon.Activity />;
+  return <Icon.ArrowUpCircle />;
 };
 ```
 
