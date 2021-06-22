@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Rect, Path } from "react-native-svg";
+import Svg, { Rect, Path, SvgProps } from "react-native-svg";
 
-function SvgTv(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Tv = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgTv(props) {
   );
 }
 
-export default SvgTv;
+export default Tv;

@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgRepeat(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Repeat = (props) => {
   return (
     <Svg
       width={24}
@@ -22,4 +26,4 @@ function SvgRepeat(props) {
   );
 }
 
-export default SvgRepeat;
+export default Repeat;

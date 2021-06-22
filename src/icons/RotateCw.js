@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgRotateCw(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const RotateCw = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgRotateCw(props) {
   );
 }
 
-export default SvgRotateCw;
+export default RotateCw;

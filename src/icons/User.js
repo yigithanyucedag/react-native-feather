@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path, Circle } from "react-native-svg";
+import Svg, { Path, Circle, SvgProps } from "react-native-svg";
 
-function SvgUser(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const User = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgUser(props) {
   );
 }
 
-export default SvgUser;
+export default User;

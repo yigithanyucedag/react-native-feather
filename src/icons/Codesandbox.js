@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgCodesandbox(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Codesandbox = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgCodesandbox(props) {
   );
 }
 
-export default SvgCodesandbox;
+export default Codesandbox;

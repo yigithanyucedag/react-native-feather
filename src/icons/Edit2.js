@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgEdit2(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Edit2 = (props) => {
   return (
     <Svg
       width={24}
@@ -20,4 +24,4 @@ function SvgEdit2(props) {
   );
 }
 
-export default SvgEdit2;
+export default Edit2;

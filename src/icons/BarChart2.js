@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgBarChart2(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const BarChart2 = (props) => {
   return (
     <Svg
       width={24}
@@ -20,4 +24,4 @@ function SvgBarChart2(props) {
   );
 }
 
-export default SvgBarChart2;
+export default BarChart2;

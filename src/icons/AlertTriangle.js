@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgAlertTriangle(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const AlertTriangle = (props) => {
   return (
     <Svg
       width={24}
@@ -20,4 +24,4 @@ function SvgAlertTriangle(props) {
   );
 }
 
-export default SvgAlertTriangle;
+export default AlertTriangle;

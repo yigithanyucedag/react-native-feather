@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Circle, Path } from "react-native-svg";
+import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
-function SvgShare2(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Share2 = (props) => {
   return (
     <Svg
       width={24}
@@ -23,4 +27,4 @@ function SvgShare2(props) {
   );
 }
 
-export default SvgShare2;
+export default Share2;

@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgCornerLeftUp(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const CornerLeftUp = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgCornerLeftUp(props) {
   );
 }
 
-export default SvgCornerLeftUp;
+export default CornerLeftUp;

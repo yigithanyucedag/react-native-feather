@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgTrash2(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Trash2 = (props) => {
   return (
     <Svg
       width={24}
@@ -20,4 +24,4 @@ function SvgTrash2(props) {
   );
 }
 
-export default SvgTrash2;
+export default Trash2;

@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path, Circle } from "react-native-svg";
+import Svg, { Path, Circle, SvgProps } from "react-native-svg";
 
-function SvgEye(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Eye = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgEye(props) {
   );
 }
 
-export default SvgEye;
+export default Eye;

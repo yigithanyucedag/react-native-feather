@@ -3,9 +3,9 @@ import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
  * @param {SvgProps} props 
- * @returns 
+ * @returns React.Element
  */
-function SvgActivity(props) {
+export const Activity = (props) => {
   return (
     <Svg
       width={24}
@@ -24,4 +24,4 @@ function SvgActivity(props) {
   );
 }
 
-export default SvgActivity;
+export default Activity;

@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Rect, Path } from "react-native-svg";
+import Svg, { Rect, Path, SvgProps } from "react-native-svg";
 
-function SvgTablet(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Tablet = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgTablet(props) {
   );
 }
 
-export default SvgTablet;
+export default Tablet;

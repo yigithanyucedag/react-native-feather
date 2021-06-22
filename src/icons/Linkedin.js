@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path, Circle } from "react-native-svg";
+import Svg, { Path, Circle, SvgProps } from "react-native-svg";
 
-function SvgLinkedin(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Linkedin = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgLinkedin(props) {
   );
 }
 
-export default SvgLinkedin;
+export default Linkedin;

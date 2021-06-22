@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgUploadCloud(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const UploadCloud = (props) => {
   return (
     <Svg
       width={24}
@@ -22,4 +26,4 @@ function SvgUploadCloud(props) {
   );
 }
 
-export default SvgUploadCloud;
+export default UploadCloud;

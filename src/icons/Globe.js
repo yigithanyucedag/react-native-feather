@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Circle, Path } from "react-native-svg";
+import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
-function SvgGlobe(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Globe = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgGlobe(props) {
   );
 }
 
-export default SvgGlobe;
+export default Globe;

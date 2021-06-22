@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Rect, Path } from "react-native-svg";
+import Svg, { Rect, Path, SvgProps } from "react-native-svg";
 
-function SvgInstagram(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Instagram = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgInstagram(props) {
   );
 }
 
-export default SvgInstagram;
+export default Instagram;

@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Rect, Path } from "react-native-svg";
+import Svg, { Rect, Path, SvgProps } from "react-native-svg";
 
-function SvgMonitor(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Monitor = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgMonitor(props) {
   );
 }
 
-export default SvgMonitor;
+export default Monitor;

@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Rect, Circle } from "react-native-svg";
+import Svg, { Rect, Circle, SvgProps } from "react-native-svg";
 
-function SvgToggleRight(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const ToggleRight = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgToggleRight(props) {
   );
 }
 
-export default SvgToggleRight;
+export default ToggleRight;

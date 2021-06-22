@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Circle } from "react-native-svg";
+import Svg, { Circle, SvgProps } from "react-native-svg";
 
-function SvgDisc(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Disc = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgDisc(props) {
   );
 }
 
-export default SvgDisc;
+export default Disc;

@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Rect, Circle, Path } from "react-native-svg";
+import Svg, { Rect, Circle, Path, SvgProps } from "react-native-svg";
 
-function SvgImage(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Image = (props) => {
   return (
     <Svg
       width={24}
@@ -22,4 +26,4 @@ function SvgImage(props) {
   );
 }
 
-export default SvgImage;
+export default Image;

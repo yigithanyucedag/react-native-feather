@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgCloudLightning(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const CloudLightning = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgCloudLightning(props) {
   );
 }
 
-export default SvgCloudLightning;
+export default CloudLightning;

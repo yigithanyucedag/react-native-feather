@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgFigma(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Figma = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgFigma(props) {
   );
 }
 
-export default SvgFigma;
+export default Figma;

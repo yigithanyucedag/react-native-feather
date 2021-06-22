@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgChevronUp(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const ChevronUp = (props) => {
   return (
     <Svg
       width={24}
@@ -20,4 +24,4 @@ function SvgChevronUp(props) {
   );
 }
 
-export default SvgChevronUp;
+export default ChevronUp;

@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Rect } from "react-native-svg";
+import Svg, { Rect, SvgProps } from "react-native-svg";
 
-function SvgSquare(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Square = (props) => {
   return (
     <Svg
       width={24}
@@ -20,4 +24,4 @@ function SvgSquare(props) {
   );
 }
 
-export default SvgSquare;
+export default Square;

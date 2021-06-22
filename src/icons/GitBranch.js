@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path, Circle } from "react-native-svg";
+import Svg, { Path, Circle, SvgProps } from "react-native-svg";
 
-function SvgGitBranch(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const GitBranch = (props) => {
   return (
     <Svg
       width={24}
@@ -23,4 +27,4 @@ function SvgGitBranch(props) {
   );
 }
 
-export default SvgGitBranch;
+export default GitBranch;

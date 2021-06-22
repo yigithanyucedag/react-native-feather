@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgAlignLeft(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const AlignLeft = (props) => {
   return (
     <Svg
       width={24}
@@ -20,4 +24,4 @@ function SvgAlignLeft(props) {
   );
 }
 
-export default SvgAlignLeft;
+export default AlignLeft;

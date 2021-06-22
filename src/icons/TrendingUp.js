@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgTrendingUp(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const TrendingUp = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgTrendingUp(props) {
   );
 }
 
-export default SvgTrendingUp;
+export default TrendingUp;

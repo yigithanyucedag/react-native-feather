@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path, Circle } from "react-native-svg";
+import Svg, { Path, Circle, SvgProps } from "react-native-svg";
 
-function SvgTruck(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Truck = (props) => {
   return (
     <Svg
       width={24}
@@ -22,4 +26,4 @@ function SvgTruck(props) {
   );
 }
 
-export default SvgTruck;
+export default Truck;

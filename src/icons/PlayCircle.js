@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Circle, Path } from "react-native-svg";
+import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
-function SvgPlayCircle(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const PlayCircle = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgPlayCircle(props) {
   );
 }
 
-export default SvgPlayCircle;
+export default PlayCircle;

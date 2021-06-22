@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Circle } from "react-native-svg";
+import Svg, { Circle, SvgProps } from "react-native-svg";
 
-function SvgMoreVertical(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const MoreVertical = (props) => {
   return (
     <Svg
       width={24}
@@ -22,4 +26,4 @@ function SvgMoreVertical(props) {
   );
 }
 
-export default SvgMoreVertical;
+export default MoreVertical;

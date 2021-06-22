@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Circle } from "react-native-svg";
+import Svg, { Circle, SvgProps } from "react-native-svg";
 
-function SvgMoreHorizontal(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const MoreHorizontal = (props) => {
   return (
     <Svg
       width={24}
@@ -22,4 +26,4 @@ function SvgMoreHorizontal(props) {
   );
 }
 
-export default SvgMoreHorizontal;
+export default MoreHorizontal;

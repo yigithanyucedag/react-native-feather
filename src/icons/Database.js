@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Ellipse, Path } from "react-native-svg";
+import Svg, { Ellipse, Path, SvgProps } from "react-native-svg";
 
-function SvgDatabase(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Database = (props) => {
   return (
     <Svg
       width={24}
@@ -22,4 +26,4 @@ function SvgDatabase(props) {
   );
 }
 
-export default SvgDatabase;
+export default Database;

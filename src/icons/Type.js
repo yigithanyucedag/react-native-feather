@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgType(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Type = (props) => {
   return (
     <Svg
       width={24}
@@ -20,4 +24,4 @@ function SvgType(props) {
   );
 }
 
-export default SvgType;
+export default Type;

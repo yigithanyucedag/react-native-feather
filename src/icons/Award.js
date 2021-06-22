@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Circle, Path } from "react-native-svg";
+import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
-function SvgAward(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Award = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgAward(props) {
   );
 }
 
-export default SvgAward;
+export default Award;

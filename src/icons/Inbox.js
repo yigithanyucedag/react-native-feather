@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgInbox(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Inbox = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgInbox(props) {
   );
 }
 
-export default SvgInbox;
+export default Inbox;

@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgTerminal(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Terminal = (props) => {
   return (
     <Svg
       width={24}
@@ -20,4 +24,4 @@ function SvgTerminal(props) {
   );
 }
 
-export default SvgTerminal;
+export default Terminal;

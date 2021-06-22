@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Rect, Path } from "react-native-svg";
+import Svg, { Rect, Path, SvgProps } from "react-native-svg";
 
-function SvgServer(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Server = (props) => {
   return (
     <Svg
       width={24}
@@ -22,4 +26,4 @@ function SvgServer(props) {
   );
 }
 
-export default SvgServer;
+export default Server;

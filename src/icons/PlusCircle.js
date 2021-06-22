@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Circle, Path } from "react-native-svg";
+import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
-function SvgPlusCircle(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const PlusCircle = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgPlusCircle(props) {
   );
 }
 
-export default SvgPlusCircle;
+export default PlusCircle;

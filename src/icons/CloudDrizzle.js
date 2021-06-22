@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgCloudDrizzle(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const CloudDrizzle = (props) => {
   return (
     <Svg
       width={24}
@@ -20,4 +24,4 @@ function SvgCloudDrizzle(props) {
   );
 }
 
-export default SvgCloudDrizzle;
+export default CloudDrizzle;

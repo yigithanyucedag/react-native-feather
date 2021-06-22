@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, SvgProps } from "react-native-svg";
 
-function SvgCodepen(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Codepen = (props) => {
   return (
     <Svg
       width={24}
@@ -22,4 +26,4 @@ function SvgCodepen(props) {
   );
 }
 
-export default SvgCodepen;
+export default Codepen;

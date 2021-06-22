@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Circle } from "react-native-svg";
+import Svg, { Circle, SvgProps } from "react-native-svg";
 
-function SvgTarget(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Target = (props) => {
   return (
     <Svg
       width={24}
@@ -22,4 +26,4 @@ function SvgTarget(props) {
   );
 }
 
-export default SvgTarget;
+export default Target;

@@ -1,7 +1,11 @@
 import * as React from "react";
-import Svg, { Path, Rect } from "react-native-svg";
+import Svg, { Path, Rect, SvgProps } from "react-native-svg";
 
-function SvgClipboard(props) {
+/**
+ * @param {SvgProps} props 
+ * @returns JSX.Element
+ */
+export const Clipboard = (props) => {
   return (
     <Svg
       width={24}
@@ -21,4 +25,4 @@ function SvgClipboard(props) {
   );
 }
 
-export default SvgClipboard;
+export default Clipboard;
