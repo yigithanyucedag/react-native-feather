@@ -6,7 +6,7 @@
   "typings": "src/react-native-feather.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "tsc -p tsconfig.json && api-extractor run --local && rimraf typings"
+    "prepublish": "tsc -p tsconfig.json && npx api-extractor run --local && rimraf typings"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,9 @@
     "react-native-svg": ">=5.3"
   },
   "devDependencies": {
+    "@types/react": "^17.0.11",
+    "react-native": "^0.64.2",
+    "react-native-svg": "^12.1.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.3.4"
   }
