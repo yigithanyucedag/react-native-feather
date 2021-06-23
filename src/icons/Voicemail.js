@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Voicemail = (props) => {
   return (
@@ -24,6 +24,6 @@ export const Voicemail = (props) => {
       <Path d="M5.5 16h13" />
     </Svg>
   );
-}
+};
 
 export default Voicemail;

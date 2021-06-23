@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const AlignCenter = (props) => {
   return (
@@ -22,6 +22,6 @@ export const AlignCenter = (props) => {
       <Path d="M18 10H6M21 6H3M21 14H3M18 18H6" />
     </Svg>
   );
-}
+};
 
 export default AlignCenter;

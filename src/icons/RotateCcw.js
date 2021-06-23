@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const RotateCcw = (props) => {
   return (
@@ -23,6 +23,6 @@ export const RotateCcw = (props) => {
       <Path d="M3.51 15a9 9 0 102.13-9.36L1 10" />
     </Svg>
   );
-}
+};
 
 export default RotateCcw;

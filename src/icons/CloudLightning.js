@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const CloudLightning = (props) => {
   return (
@@ -23,6 +23,6 @@ export const CloudLightning = (props) => {
       <Path d="M13 11l-4 6h6l-4 6" />
     </Svg>
   );
-}
+};
 
 export default CloudLightning;

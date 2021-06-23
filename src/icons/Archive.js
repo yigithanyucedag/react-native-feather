@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Archive = (props) => {
   return (
@@ -22,6 +22,6 @@ export const Archive = (props) => {
       <Path d="M21 8v13H3V8M1 3h22v5H1zM10 12h4" />
     </Svg>
   );
-}
+};
 
 export default Archive;

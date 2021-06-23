@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Mic = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Mic = (props) => {
       <Path d="M19 10v2a7 7 0 01-14 0v-2M12 19v4M8 23h8" />
     </Svg>
   );
-}
+};
 
 export default Mic;

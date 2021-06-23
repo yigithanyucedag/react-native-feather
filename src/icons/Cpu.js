@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Rect, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Cpu = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Cpu = (props) => {
       <Path d="M9 9h6v6H9zM9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3" />
     </Svg>
   );
-}
+};
 
 export default Cpu;

@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Rect, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Briefcase = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Briefcase = (props) => {
       <Path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16" />
     </Svg>
   );
-}
+};
 
 export default Briefcase;

@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const SkipForward = (props) => {
   return (
@@ -22,6 +22,6 @@ export const SkipForward = (props) => {
       <Path d="M5 4l10 8-10 8V4zM19 5v14" />
     </Svg>
   );
-}
+};
 
 export default SkipForward;

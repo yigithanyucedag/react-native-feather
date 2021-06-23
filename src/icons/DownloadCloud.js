@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const DownloadCloud = (props) => {
   return (
@@ -23,6 +23,6 @@ export const DownloadCloud = (props) => {
       <Path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29" />
     </Svg>
   );
-}
+};
 
 export default DownloadCloud;

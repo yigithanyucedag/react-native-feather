@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const GitCommit = (props) => {
   return (
@@ -23,6 +23,6 @@ export const GitCommit = (props) => {
       <Path d="M1.05 12H7M17.01 12h5.95" />
     </Svg>
   );
-}
+};
 
 export default GitCommit;

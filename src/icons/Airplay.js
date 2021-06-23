@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Airplay = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Airplay = (props) => {
       <Path d="M12 15l5 6H7l5-6z" />
     </Svg>
   );
-}
+};
 
 export default Airplay;

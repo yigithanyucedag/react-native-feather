@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const MousePointer = (props) => {
   return (
@@ -22,6 +22,6 @@ export const MousePointer = (props) => {
       <Path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3zM13 13l6 6" />
     </Svg>
   );
-}
+};
 
 export default MousePointer;

@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Rect, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Trello = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Trello = (props) => {
       <Path d="M7 7h3v9H7zM14 7h3v5h-3z" />
     </Svg>
   );
-}
+};
 
 export default Trello;

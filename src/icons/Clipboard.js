@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, Rect, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Clipboard = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Clipboard = (props) => {
       <Rect x={8} y={2} width={8} height={4} rx={1} ry={1} />
     </Svg>
   );
-}
+};
 
 export default Clipboard;

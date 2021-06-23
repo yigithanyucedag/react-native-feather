@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Anchor = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Anchor = (props) => {
       <Path d="M12 22V8M5 12H2a10 10 0 0020 0h-3" />
     </Svg>
   );
-}
+};
 
 export default Anchor;

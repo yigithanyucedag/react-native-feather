@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const MoreHorizontal = (props) => {
   return (
@@ -24,6 +24,6 @@ export const MoreHorizontal = (props) => {
       <Circle cx={5} cy={12} r={1} />
     </Svg>
   );
-}
+};
 
 export default MoreHorizontal;

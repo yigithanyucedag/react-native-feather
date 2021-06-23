@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const GitPullRequest = (props) => {
   return (
@@ -24,6 +24,6 @@ export const GitPullRequest = (props) => {
       <Path d="M13 6h3a2 2 0 012 2v7M6 9v12" />
     </Svg>
   );
-}
+};
 
 export default GitPullRequest;

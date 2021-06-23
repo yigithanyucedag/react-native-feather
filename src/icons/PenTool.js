@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, Circle, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const PenTool = (props) => {
   return (
@@ -24,6 +24,6 @@ export const PenTool = (props) => {
       <Circle cx={11} cy={11} r={2} />
     </Svg>
   );
-}
+};
 
 export default PenTool;

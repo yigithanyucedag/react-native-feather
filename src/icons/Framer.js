@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Framer = (props) => {
   return (
@@ -22,6 +22,6 @@ export const Framer = (props) => {
       <Path d="M5 16V9h14V2H5l14 14h-7m-7 0l7 7v-7m-7 0h7" />
     </Svg>
   );
-}
+};
 
 export default Framer;

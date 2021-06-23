@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, Circle, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Linkedin = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Linkedin = (props) => {
       <Circle cx={4} cy={4} r={2} />
     </Svg>
   );
-}
+};
 
 export default Linkedin;

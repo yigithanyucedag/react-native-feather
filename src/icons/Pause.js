@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Pause = (props) => {
   return (
@@ -22,6 +22,6 @@ export const Pause = (props) => {
       <Path d="M6 4h4v16H6zM14 4h4v16h-4z" />
     </Svg>
   );
-}
+};
 
 export default Pause;

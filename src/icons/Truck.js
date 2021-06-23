@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, Circle, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Truck = (props) => {
   return (
@@ -24,6 +24,6 @@ export const Truck = (props) => {
       <Circle cx={18.5} cy={18.5} r={2.5} />
     </Svg>
   );
-}
+};
 
 export default Truck;

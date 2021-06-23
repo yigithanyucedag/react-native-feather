@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Search = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Search = (props) => {
       <Path d="M21 21l-4.35-4.35" />
     </Svg>
   );
-}
+};
 
 export default Search;

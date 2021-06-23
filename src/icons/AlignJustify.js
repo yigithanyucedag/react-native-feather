@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const AlignJustify = (props) => {
   return (
@@ -22,6 +22,6 @@ export const AlignJustify = (props) => {
       <Path d="M21 10H3M21 6H3M21 14H3M21 18H3" />
     </Svg>
   );
-}
+};
 
 export default AlignJustify;

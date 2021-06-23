@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const ZoomIn = (props) => {
   return (
@@ -23,6 +23,6 @@ export const ZoomIn = (props) => {
       <Path d="M21 21l-4.35-4.35M11 8v6M8 11h6" />
     </Svg>
   );
-}
+};
 
 export default ZoomIn;

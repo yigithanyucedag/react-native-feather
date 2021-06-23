@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Underline = (props) => {
   return (
@@ -22,6 +22,6 @@ export const Underline = (props) => {
       <Path d="M6 3v7a6 6 0 006 6 6 6 0 006-6V3M4 21h16" />
     </Svg>
   );
-}
+};
 
 export default Underline;

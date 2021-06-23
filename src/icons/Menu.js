@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Menu = (props) => {
   return (
@@ -22,6 +22,6 @@ export const Menu = (props) => {
       <Path d="M3 12h18M3 6h18M3 18h18" />
     </Svg>
   );
-}
+};
 
 export default Menu;

@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Rect, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Square = (props) => {
   return (
@@ -22,6 +22,6 @@ export const Square = (props) => {
       <Rect x={3} y={3} width={18} height={18} rx={2} ry={2} />
     </Svg>
   );
-}
+};
 
 export default Square;

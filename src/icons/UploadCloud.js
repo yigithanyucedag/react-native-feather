@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const UploadCloud = (props) => {
   return (
@@ -24,6 +24,6 @@ export const UploadCloud = (props) => {
       <Path d="M16 16l-4-4-4 4" />
     </Svg>
   );
-}
+};
 
 export default UploadCloud;

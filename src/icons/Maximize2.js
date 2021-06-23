@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Maximize2 = (props) => {
   return (
@@ -22,6 +22,6 @@ export const Maximize2 = (props) => {
       <Path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
     </Svg>
   );
-}
+};
 
 export default Maximize2;

@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const GitMerge = (props) => {
   return (
@@ -24,6 +24,6 @@ export const GitMerge = (props) => {
       <Path d="M6 21V9a9 9 0 009 9" />
     </Svg>
   );
-}
+};
 
 export default GitMerge;

@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, Circle, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const GitBranch = (props) => {
   return (
@@ -25,6 +25,6 @@ export const GitBranch = (props) => {
       <Path d="M18 9a9 9 0 01-9 9" />
     </Svg>
   );
-}
+};
 
 export default GitBranch;

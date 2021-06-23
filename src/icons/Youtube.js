@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Youtube = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Youtube = (props) => {
       <Path d="M9.75 15.02l5.75-3.27-5.75-3.27v6.54z" />
     </Svg>
   );
-}
+};
 
 export default Youtube;

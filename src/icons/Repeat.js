@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Repeat = (props) => {
   return (
@@ -24,6 +24,6 @@ export const Repeat = (props) => {
       <Path d="M21 13v2a4 4 0 01-4 4H3" />
     </Svg>
   );
-}
+};
 
 export default Repeat;

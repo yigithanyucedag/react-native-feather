@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const ChevronsDown = (props) => {
   return (
@@ -22,6 +22,6 @@ export const ChevronsDown = (props) => {
       <Path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
     </Svg>
   );
-}
+};
 
 export default ChevronsDown;

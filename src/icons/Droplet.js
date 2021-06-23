@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Droplet = (props) => {
   return (
@@ -22,6 +22,6 @@ export const Droplet = (props) => {
       <Path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z" />
     </Svg>
   );
-}
+};
 
 export default Droplet;

@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Ellipse, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Database = (props) => {
   return (
@@ -24,6 +24,6 @@ export const Database = (props) => {
       <Path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
     </Svg>
   );
-}
+};
 
 export default Database;

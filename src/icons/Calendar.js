@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Rect, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Calendar = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Calendar = (props) => {
       <Path d="M16 2v4M8 2v4M3 10h18" />
     </Svg>
   );
-}
+};
 
 export default Calendar;

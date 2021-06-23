@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const AtSign = (props) => {
   return (
@@ -23,6 +23,6 @@ export const AtSign = (props) => {
       <Path d="M16 8v5a3 3 0 006 0v-1a10 10 0 10-3.92 7.94" />
     </Svg>
   );
-}
+};
 
 export default AtSign;

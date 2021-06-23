@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Crosshair = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Crosshair = (props) => {
       <Path d="M22 12h-4M6 12H2M12 6V2M12 22v-4" />
     </Svg>
   );
-}
+};
 
 export default Crosshair;

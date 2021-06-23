@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Scissors = (props) => {
   return (
@@ -24,6 +24,6 @@ export const Scissors = (props) => {
       <Path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12" />
     </Svg>
   );
-}
+};
 
 export default Scissors;

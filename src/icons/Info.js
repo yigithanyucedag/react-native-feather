@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Info = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Info = (props) => {
       <Path d="M12 16v-4M12 8h.01" />
     </Svg>
   );
-}
+};
 
 export default Info;

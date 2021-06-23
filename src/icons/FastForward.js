@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const FastForward = (props) => {
   return (
@@ -22,6 +22,6 @@ export const FastForward = (props) => {
       <Path d="M13 19l9-7-9-7v14zM2 19l9-7-9-7v14z" />
     </Svg>
   );
-}
+};
 
 export default FastForward;

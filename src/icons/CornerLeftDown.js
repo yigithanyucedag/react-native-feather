@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const CornerLeftDown = (props) => {
   return (
@@ -23,6 +23,6 @@ export const CornerLeftDown = (props) => {
       <Path d="M20 4h-7a4 4 0 00-4 4v12" />
     </Svg>
   );
-}
+};
 
 export default CornerLeftDown;

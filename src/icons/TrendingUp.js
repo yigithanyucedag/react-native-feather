@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const TrendingUp = (props) => {
   return (
@@ -23,6 +23,6 @@ export const TrendingUp = (props) => {
       <Path d="M17 6h6v6" />
     </Svg>
   );
-}
+};
 
 export default TrendingUp;

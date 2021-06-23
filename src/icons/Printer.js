@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Printer = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Printer = (props) => {
       <Path d="M6 14h12v8H6z" />
     </Svg>
   );
-}
+};
 
 export default Printer;

@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Clock = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Clock = (props) => {
       <Path d="M12 6v6l4 2" />
     </Svg>
   );
-}
+};
 
 export default Clock;

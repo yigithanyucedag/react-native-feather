@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Pocket = (props) => {
   return (
@@ -23,6 +23,6 @@ export const Pocket = (props) => {
       <Path d="M8 10l4 4 4-4" />
     </Svg>
   );
-}
+};
 
 export default Pocket;

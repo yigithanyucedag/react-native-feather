@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Circle, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Chrome = (props) => {
   return (
@@ -24,6 +24,6 @@ export const Chrome = (props) => {
       <Path d="M21.17 8H12M3.95 6.06L8.54 14M10.88 21.94L15.46 14" />
     </Svg>
   );
-}
+};
 
 export default Chrome;

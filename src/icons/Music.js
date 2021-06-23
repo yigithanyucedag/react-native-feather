@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, Circle, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Music = (props) => {
   return (
@@ -24,6 +24,6 @@ export const Music = (props) => {
       <Circle cx={18} cy={16} r={3} />
     </Svg>
   );
-}
+};
 
 export default Music;

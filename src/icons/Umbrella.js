@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Umbrella = (props) => {
   return (
@@ -22,6 +22,6 @@ export const Umbrella = (props) => {
       <Path d="M23 12a11.05 11.05 0 00-22 0zm-5 7a3 3 0 01-6 0v-7" />
     </Svg>
   );
-}
+};
 
 export default Umbrella;

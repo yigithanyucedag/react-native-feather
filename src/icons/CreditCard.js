@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Rect, Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const CreditCard = (props) => {
   return (
@@ -23,6 +23,6 @@ export const CreditCard = (props) => {
       <Path d="M1 10h22" />
     </Svg>
   );
-}
+};
 
 export default CreditCard;

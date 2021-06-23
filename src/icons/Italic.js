@@ -2,8 +2,8 @@ import * as React from "react";
 import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
- * @param {SvgProps} props 
- * @returns JSX.Element
+ * @param {SvgProps} props
+ * @returns React.ComponentClass<SvgProps>
  */
 export const Italic = (props) => {
   return (
@@ -22,6 +22,6 @@ export const Italic = (props) => {
       <Path d="M19 4h-9M14 20H5M15 4L9 20" />
     </Svg>
   );
-}
+};
 
 export default Italic;
