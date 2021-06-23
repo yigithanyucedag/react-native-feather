@@ -33,6 +33,7 @@
     "react-native-svg": ">=5.3"
   },
   "devDependencies": {
+    "@microsoft/api-extractor": "^7.16.1",
     "@types/react": "^17.0.11",
     "react-native": "^0.64.2",
     "react-native-svg": "^12.1.1",
