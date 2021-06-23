@@ -1,11 +1,11 @@
-import { FC } from "react";
+import { ComponentClass } from "react";
 import { SvgProps } from "react-native-svg";
 
 export interface IconProps {
   props: SvgProps;
 }
 
-export type Icon = FC<SvgProps>;
+export type Icon = ComponentClass<SvgProps>;
 
 export const Activity: Icon;
 export const Airplay: Icon;
