@@ -2,3 +2,4 @@ node_modules/
 src/tsdoc-metadata.json
 typings/
 *.log
+.DS_Store
