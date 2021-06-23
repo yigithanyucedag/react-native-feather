@@ -1,571 +1,291 @@
-import { SvgProps } from 'react-native-svg';
-
-export declare function Activity(props: SvgProps): JSX.Element;
-
-export declare function Airplay(props: SvgProps): JSX.Element;
-
-export declare function AlertCircle(props: SvgProps): JSX.Element;
-
-export declare function AlertOctagon(props: SvgProps): JSX.Element;
-
-export declare function AlertTriangle(props: SvgProps): JSX.Element;
-
-export declare function AlignCenter(props: SvgProps): JSX.Element;
-
-export declare function AlignJustify(props: SvgProps): JSX.Element;
-
-export declare function AlignLeft(props: SvgProps): JSX.Element;
-
-export declare function AlignRight(props: SvgProps): JSX.Element;
-
-export declare function Anchor(props: SvgProps): JSX.Element;
-
-export declare function Aperture(props: SvgProps): JSX.Element;
-
-export declare function Archive(props: SvgProps): JSX.Element;
-
-export declare function ArrowDown(props: SvgProps): JSX.Element;
-
-export declare function ArrowDownCircle(props: SvgProps): JSX.Element;
-
-export declare function ArrowDownLeft(props: SvgProps): JSX.Element;
-
-export declare function ArrowDownRight(props: SvgProps): JSX.Element;
-
-export declare function ArrowLeft(props: SvgProps): JSX.Element;
-
-export declare function ArrowLeftCircle(props: SvgProps): JSX.Element;
-
-export declare function ArrowRight(props: SvgProps): JSX.Element;
-
-export declare function ArrowRightCircle(props: SvgProps): JSX.Element;
-
-export declare function ArrowUp(props: SvgProps): JSX.Element;
-
-export declare function ArrowUpCircle(props: SvgProps): JSX.Element;
-
-export declare function ArrowUpLeft(props: SvgProps): JSX.Element;
-
-export declare function ArrowUpRight(props: SvgProps): JSX.Element;
-
-export declare function AtSign(props: SvgProps): JSX.Element;
-
-export declare function Award(props: SvgProps): JSX.Element;
-
-export declare function BarChart(props: SvgProps): JSX.Element;
-
-export declare function BarChart2(props: SvgProps): JSX.Element;
-
-export declare function Battery(props: SvgProps): JSX.Element;
-
-export declare function BatteryCharging(props: SvgProps): JSX.Element;
-
-export declare function Bell(props: SvgProps): JSX.Element;
-
-export declare function BellOff(props: SvgProps): JSX.Element;
-
-export declare function Bluetooth(props: SvgProps): JSX.Element;
-
-export declare function Bold(props: SvgProps): JSX.Element;
-
-export declare function Book(props: SvgProps): JSX.Element;
-
-export declare function Bookmark(props: SvgProps): JSX.Element;
-
-export declare function BookOpen(props: SvgProps): JSX.Element;
-
-export declare function Box(props: SvgProps): JSX.Element;
-
-export declare function Briefcase(props: SvgProps): JSX.Element;
-
-export declare function Calendar(props: SvgProps): JSX.Element;
-
-export declare function Camera(props: SvgProps): JSX.Element;
-
-export declare function CameraOff(props: SvgProps): JSX.Element;
-
-export declare function Cast(props: SvgProps): JSX.Element;
-
-export declare function Check(props: SvgProps): JSX.Element;
-
-export declare function CheckCircle(props: SvgProps): JSX.Element;
-
-export declare function CheckSquare(props: SvgProps): JSX.Element;
-
-export declare function ChevronDown(props: SvgProps): JSX.Element;
-
-export declare function ChevronLeft(props: SvgProps): JSX.Element;
-
-export declare function ChevronRight(props: SvgProps): JSX.Element;
-
-export declare function ChevronsDown(props: SvgProps): JSX.Element;
-
-export declare function ChevronsLeft(props: SvgProps): JSX.Element;
-
-export declare function ChevronsRight(props: SvgProps): JSX.Element;
-
-export declare function ChevronsUp(props: SvgProps): JSX.Element;
-
-export declare function ChevronUp(props: SvgProps): JSX.Element;
-
-export declare function Chrome(props: SvgProps): JSX.Element;
-
-export declare function Circle(props: SvgProps): JSX.Element;
-
-declare function Clipboard_2(props: SvgProps): JSX.Element;
-export { Clipboard_2 as Clipboard }
-
-export declare function Clock(props: SvgProps): JSX.Element;
-
-export declare function Cloud(props: SvgProps): JSX.Element;
-
-export declare function CloudDrizzle(props: SvgProps): JSX.Element;
-
-export declare function CloudLightning(props: SvgProps): JSX.Element;
-
-export declare function CloudOff(props: SvgProps): JSX.Element;
-
-export declare function CloudRain(props: SvgProps): JSX.Element;
-
-export declare function CloudSnow(props: SvgProps): JSX.Element;
-
-export declare function Code(props: SvgProps): JSX.Element;
-
-export declare function Codepen(props: SvgProps): JSX.Element;
-
-export declare function Codesandbox(props: SvgProps): JSX.Element;
-
-export declare function Coffee(props: SvgProps): JSX.Element;
-
-export declare function Columns(props: SvgProps): JSX.Element;
-
-export declare function Command(props: SvgProps): JSX.Element;
-
-export declare function Compass(props: SvgProps): JSX.Element;
-
-export declare function Copy(props: SvgProps): JSX.Element;
-
-export declare function CornerDownLeft(props: SvgProps): JSX.Element;
-
-export declare function CornerDownRight(props: SvgProps): JSX.Element;
-
-export declare function CornerLeftDown(props: SvgProps): JSX.Element;
-
-export declare function CornerLeftUp(props: SvgProps): JSX.Element;
-
-export declare function CornerRightDown(props: SvgProps): JSX.Element;
-
-export declare function CornerRightUp(props: SvgProps): JSX.Element;
-
-export declare function CornerUpLeft(props: SvgProps): JSX.Element;
-
-export declare function CornerUpRight(props: SvgProps): JSX.Element;
-
-export declare function Cpu(props: SvgProps): JSX.Element;
-
-export declare function CreditCard(props: SvgProps): JSX.Element;
-
-export declare function Crop(props: SvgProps): JSX.Element;
-
-export declare function Crosshair(props: SvgProps): JSX.Element;
-
-export declare function Database(props: SvgProps): JSX.Element;
-
-export declare function Delete(props: SvgProps): JSX.Element;
-
-export declare function Disc(props: SvgProps): JSX.Element;
-
-export declare function DollarSign(props: SvgProps): JSX.Element;
-
-export declare function Download(props: SvgProps): JSX.Element;
-
-export declare function DownloadCloud(props: SvgProps): JSX.Element;
-
-export declare function Droplet(props: SvgProps): JSX.Element;
-
-export declare function Edit(props: SvgProps): JSX.Element;
-
-export declare function Edit2(props: SvgProps): JSX.Element;
-
-export declare function Edit3(props: SvgProps): JSX.Element;
-
-export declare function ExternalLink(props: SvgProps): JSX.Element;
-
-export declare function Eye(props: SvgProps): JSX.Element;
-
-export declare function EyeOff(props: SvgProps): JSX.Element;
-
-export declare function Facebook(props: SvgProps): JSX.Element;
-
-export declare function FastForward(props: SvgProps): JSX.Element;
-
-export declare function Feather(props: SvgProps): JSX.Element;
-
-export declare function Figma(props: SvgProps): JSX.Element;
-
-declare function File_2(props: SvgProps): JSX.Element;
-export { File_2 as File }
-
-export declare function FileMinus(props: SvgProps): JSX.Element;
-
-export declare function FilePlus(props: SvgProps): JSX.Element;
-
-export declare function FileText(props: SvgProps): JSX.Element;
-
-export declare function Film(props: SvgProps): JSX.Element;
-
-export declare function Filter(props: SvgProps): JSX.Element;
-
-export declare function Flag(props: SvgProps): JSX.Element;
-
-export declare function Folder(props: SvgProps): JSX.Element;
-
-export declare function FolderMinus(props: SvgProps): JSX.Element;
-
-export declare function FolderPlus(props: SvgProps): JSX.Element;
-
-export declare function Framer(props: SvgProps): JSX.Element;
-
-export declare function Frown(props: SvgProps): JSX.Element;
-
-export declare function Gift(props: SvgProps): JSX.Element;
-
-export declare function GitBranch(props: SvgProps): JSX.Element;
-
-export declare function GitCommit(props: SvgProps): JSX.Element;
-
-export declare function Github(props: SvgProps): JSX.Element;
-
-export declare function Gitlab(props: SvgProps): JSX.Element;
-
-export declare function GitMerge(props: SvgProps): JSX.Element;
-
-export declare function GitPullRequest(props: SvgProps): JSX.Element;
-
-export declare function Globe(props: SvgProps): JSX.Element;
-
-export declare function Grid(props: SvgProps): JSX.Element;
-
-export declare function HardDrive(props: SvgProps): JSX.Element;
-
-export declare function Hash(props: SvgProps): JSX.Element;
-
-export declare function Headphones(props: SvgProps): JSX.Element;
-
-export declare function Heart(props: SvgProps): JSX.Element;
-
-export declare function HelpCircle(props: SvgProps): JSX.Element;
-
-export declare function Hexagon(props: SvgProps): JSX.Element;
-
-export declare function Home(props: SvgProps): JSX.Element;
-
-declare function Image_2(props: SvgProps): JSX.Element;
-export { Image_2 as Image }
-
-export declare function Inbox(props: SvgProps): JSX.Element;
-
-export declare function Info(props: SvgProps): JSX.Element;
-
-export declare function Instagram(props: SvgProps): JSX.Element;
-
-export declare function Italic(props: SvgProps): JSX.Element;
-
-export declare function Key(props: SvgProps): JSX.Element;
-
-export declare function Layers(props: SvgProps): JSX.Element;
-
-export declare function Layout(props: SvgProps): JSX.Element;
-
-export declare function LifeBuoy(props: SvgProps): JSX.Element;
-
-export declare function Link(props: SvgProps): JSX.Element;
-
-export declare function Link2(props: SvgProps): JSX.Element;
-
-export declare function Linkedin(props: SvgProps): JSX.Element;
-
-export declare function List(props: SvgProps): JSX.Element;
-
-export declare function Loader(props: SvgProps): JSX.Element;
-
-export declare function Lock(props: SvgProps): JSX.Element;
-
-export declare function LogIn(props: SvgProps): JSX.Element;
-
-export declare function LogOut(props: SvgProps): JSX.Element;
-
-export declare function Mail(props: SvgProps): JSX.Element;
-
-declare function Map_2(props: SvgProps): JSX.Element;
-export { Map_2 as Map }
-
-export declare function MapPin(props: SvgProps): JSX.Element;
-
-export declare function Maximize(props: SvgProps): JSX.Element;
-
-export declare function Maximize2(props: SvgProps): JSX.Element;
-
-export declare function Meh(props: SvgProps): JSX.Element;
-
-export declare function Menu(props: SvgProps): JSX.Element;
-
-export declare function MessageCircle(props: SvgProps): JSX.Element;
-
-export declare function MessageSquare(props: SvgProps): JSX.Element;
-
-export declare function Mic(props: SvgProps): JSX.Element;
-
-export declare function MicOff(props: SvgProps): JSX.Element;
-
-export declare function Minimize(props: SvgProps): JSX.Element;
-
-export declare function Minimize2(props: SvgProps): JSX.Element;
-
-export declare function Minus(props: SvgProps): JSX.Element;
-
-export declare function MinusCircle(props: SvgProps): JSX.Element;
-
-export declare function MinusSquare(props: SvgProps): JSX.Element;
-
-export declare function Monitor(props: SvgProps): JSX.Element;
-
-export declare function Moon(props: SvgProps): JSX.Element;
-
-export declare function MoreHorizontal(props: SvgProps): JSX.Element;
-
-export declare function MoreVertical(props: SvgProps): JSX.Element;
-
-export declare function MousePointer(props: SvgProps): JSX.Element;
-
-export declare function Move(props: SvgProps): JSX.Element;
-
-export declare function Music(props: SvgProps): JSX.Element;
-
-export declare function Navigation(props: SvgProps): JSX.Element;
-
-export declare function Navigation2(props: SvgProps): JSX.Element;
-
-export declare function Octagon(props: SvgProps): JSX.Element;
-
-export declare function Package(props: SvgProps): JSX.Element;
-
-export declare function Paperclip(props: SvgProps): JSX.Element;
-
-export declare function Pause(props: SvgProps): JSX.Element;
-
-export declare function PauseCircle(props: SvgProps): JSX.Element;
-
-export declare function PenTool(props: SvgProps): JSX.Element;
-
-export declare function Percent(props: SvgProps): JSX.Element;
-
-export declare function Phone(props: SvgProps): JSX.Element;
-
-export declare function PhoneCall(props: SvgProps): JSX.Element;
-
-export declare function PhoneForwarded(props: SvgProps): JSX.Element;
-
-export declare function PhoneIncoming(props: SvgProps): JSX.Element;
-
-export declare function PhoneMissed(props: SvgProps): JSX.Element;
-
-export declare function PhoneOff(props: SvgProps): JSX.Element;
-
-export declare function PhoneOutgoing(props: SvgProps): JSX.Element;
-
-export declare function PieChart(props: SvgProps): JSX.Element;
-
-export declare function Play(props: SvgProps): JSX.Element;
-
-export declare function PlayCircle(props: SvgProps): JSX.Element;
-
-export declare function Plus(props: SvgProps): JSX.Element;
-
-export declare function PlusCircle(props: SvgProps): JSX.Element;
-
-export declare function PlusSquare(props: SvgProps): JSX.Element;
-
-export declare function Pocket(props: SvgProps): JSX.Element;
-
-export declare function Power(props: SvgProps): JSX.Element;
-
-export declare function Printer(props: SvgProps): JSX.Element;
-
-export declare function Radio(props: SvgProps): JSX.Element;
-
-export declare function RefreshCcw(props: SvgProps): JSX.Element;
-
-export declare function RefreshCw(props: SvgProps): JSX.Element;
-
-export declare function Repeat(props: SvgProps): JSX.Element;
-
-export declare function Rewind(props: SvgProps): JSX.Element;
-
-export declare function RotateCcw(props: SvgProps): JSX.Element;
-
-export declare function RotateCw(props: SvgProps): JSX.Element;
-
-export declare function Rss(props: SvgProps): JSX.Element;
-
-export declare function Save(props: SvgProps): JSX.Element;
-
-export declare function Scissors(props: SvgProps): JSX.Element;
-
-export declare function Search(props: SvgProps): JSX.Element;
-
-export declare function Send(props: SvgProps): JSX.Element;
-
-export declare function Server(props: SvgProps): JSX.Element;
-
-export declare function Settings(props: SvgProps): JSX.Element;
-
-export declare function Share(props: SvgProps): JSX.Element;
-
-export declare function Share2(props: SvgProps): JSX.Element;
-
-export declare function Shield(props: SvgProps): JSX.Element;
-
-export declare function ShieldOff(props: SvgProps): JSX.Element;
-
-export declare function ShoppingBag(props: SvgProps): JSX.Element;
-
-export declare function ShoppingCart(props: SvgProps): JSX.Element;
-
-export declare function Shuffle(props: SvgProps): JSX.Element;
-
-export declare function Sidebar(props: SvgProps): JSX.Element;
-
-export declare function SkipBack(props: SvgProps): JSX.Element;
-
-export declare function SkipForward(props: SvgProps): JSX.Element;
-
-export declare function Slack(props: SvgProps): JSX.Element;
-
-export declare function Slash(props: SvgProps): JSX.Element;
-
-export declare function Sliders(props: SvgProps): JSX.Element;
-
-export declare function Smartphone(props: SvgProps): JSX.Element;
-
-export declare function Smile(props: SvgProps): JSX.Element;
-
-export declare function Speaker(props: SvgProps): JSX.Element;
-
-export declare function Square(props: SvgProps): JSX.Element;
-
-export declare function Star(props: SvgProps): JSX.Element;
-
-export declare function StopCircle(props: SvgProps): JSX.Element;
-
-export declare function Sun(props: SvgProps): JSX.Element;
-
-export declare function Sunrise(props: SvgProps): JSX.Element;
-
-export declare function Sunset(props: SvgProps): JSX.Element;
-
-export declare function Tablet(props: SvgProps): JSX.Element;
-
-export declare function Tag(props: SvgProps): JSX.Element;
-
-export declare function Target(props: SvgProps): JSX.Element;
-
-export declare function Terminal(props: SvgProps): JSX.Element;
-
-export declare function Thermometer(props: SvgProps): JSX.Element;
-
-export declare function ThumbsDown(props: SvgProps): JSX.Element;
-
-export declare function ThumbsUp(props: SvgProps): JSX.Element;
-
-export declare function ToggleLeft(props: SvgProps): JSX.Element;
-
-export declare function ToggleRight(props: SvgProps): JSX.Element;
-
-export declare function Tool(props: SvgProps): JSX.Element;
-
-export declare function Trash(props: SvgProps): JSX.Element;
-
-export declare function Trash2(props: SvgProps): JSX.Element;
-
-export declare function Trello(props: SvgProps): JSX.Element;
-
-export declare function TrendingDown(props: SvgProps): JSX.Element;
-
-export declare function TrendingUp(props: SvgProps): JSX.Element;
-
-export declare function Triangle(props: SvgProps): JSX.Element;
-
-export declare function Truck(props: SvgProps): JSX.Element;
-
-export declare function Tv(props: SvgProps): JSX.Element;
-
-export declare function Twitch(props: SvgProps): JSX.Element;
-
-export declare function Twitter(props: SvgProps): JSX.Element;
-
-export declare function Type(props: SvgProps): JSX.Element;
-
-export declare function Umbrella(props: SvgProps): JSX.Element;
-
-export declare function Underline(props: SvgProps): JSX.Element;
-
-export declare function Unlock(props: SvgProps): JSX.Element;
-
-export declare function Upload(props: SvgProps): JSX.Element;
-
-export declare function UploadCloud(props: SvgProps): JSX.Element;
-
-export declare function User(props: SvgProps): JSX.Element;
-
-export declare function UserCheck(props: SvgProps): JSX.Element;
-
-export declare function UserMinus(props: SvgProps): JSX.Element;
-
-export declare function UserPlus(props: SvgProps): JSX.Element;
-
-export declare function Users(props: SvgProps): JSX.Element;
-
-export declare function UserX(props: SvgProps): JSX.Element;
-
-export declare function Video(props: SvgProps): JSX.Element;
-
-export declare function VideoOff(props: SvgProps): JSX.Element;
-
-export declare function Voicemail(props: SvgProps): JSX.Element;
-
-export declare function Volume(props: SvgProps): JSX.Element;
-
-export declare function Volume1(props: SvgProps): JSX.Element;
-
-export declare function Volume2(props: SvgProps): JSX.Element;
-
-export declare function VolumeX(props: SvgProps): JSX.Element;
-
-export declare function Watch(props: SvgProps): JSX.Element;
-
-export declare function Wifi(props: SvgProps): JSX.Element;
-
-export declare function WifiOff(props: SvgProps): JSX.Element;
-
-export declare function Wind(props: SvgProps): JSX.Element;
-
-export declare function X(props: SvgProps): JSX.Element;
-
-export declare function XCircle(props: SvgProps): JSX.Element;
-
-export declare function XOctagon(props: SvgProps): JSX.Element;
-
-export declare function XSquare(props: SvgProps): JSX.Element;
-
-export declare function Youtube(props: SvgProps): JSX.Element;
-
-export declare function Zap(props: SvgProps): JSX.Element;
-
-export declare function ZapOff(props: SvgProps): JSX.Element;
-
-export declare function ZoomIn(props: SvgProps): JSX.Element;
-
-export declare function ZoomOut(props: SvgProps): JSX.Element;
-
-export { }
+import { FC } from "react";
+import { SvgProps } from "react-native-svg";
+
+export interface IconProps {
+  props: SvgProps;
+}
+
+export type Icon = FC<SvgProps>;
+
+export const Activity: Icon;
+export const Airplay: Icon;
+export const AlertCircle: Icon;
+export const AlertOctagon: Icon;
+export const AlertTriangle: Icon;
+export const AlignCenter: Icon;
+export const AlignJustify: Icon;
+export const AlignLeft: Icon;
+export const AlignRight: Icon;
+export const Anchor: Icon;
+export const Aperture: Icon;
+export const Archive: Icon;
+export const ArrowDown: Icon;
+export const ArrowDownCircle: Icon;
+export const ArrowDownLeft: Icon;
+export const ArrowDownRight: Icon;
+export const ArrowLeft: Icon;
+export const ArrowLeftCircle: Icon;
+export const ArrowRight: Icon;
+export const ArrowRightCircle: Icon;
+export const ArrowUp: Icon;
+export const ArrowUpCircle: Icon;
+export const ArrowUpLeft: Icon;
+export const ArrowUpRight: Icon;
+export const AtSign: Icon;
+export const Award: Icon;
+export const BarChart: Icon;
+export const BarChart2: Icon;
+export const Battery: Icon;
+export const BatteryCharging: Icon;
+export const Bell: Icon;
+export const BellOff: Icon;
+export const Bluetooth: Icon;
+export const Bold: Icon;
+export const Book: Icon;
+export const Bookmark: Icon;
+export const BookOpen: Icon;
+export const Box: Icon;
+export const Briefcase: Icon;
+export const Calendar: Icon;
+export const Camera: Icon;
+export const CameraOff: Icon;
+export const Cast: Icon;
+export const Check: Icon;
+export const CheckCircle: Icon;
+export const CheckSquare: Icon;
+export const ChevronDown: Icon;
+export const ChevronLeft: Icon;
+export const ChevronRight: Icon;
+export const ChevronsDown: Icon;
+export const ChevronsLeft: Icon;
+export const ChevronsRight: Icon;
+export const ChevronsUp: Icon;
+export const ChevronUp: Icon;
+export const Chrome: Icon;
+export const Circle: Icon;
+export const Clipboard: Icon;
+export const Clock: Icon;
+export const Cloud: Icon;
+export const CloudDrizzle: Icon;
+export const CloudLightning: Icon;
+export const CloudOff: Icon;
+export const CloudRain: Icon;
+export const CloudSnow: Icon;
+export const Code: Icon;
+export const Codepen: Icon;
+export const Codesandbox: Icon;
+export const Coffee: Icon;
+export const Columns: Icon;
+export const Command: Icon;
+export const Compass: Icon;
+export const Copy: Icon;
+export const CornerDownLeft: Icon;
+export const CornerDownRight: Icon;
+export const CornerLeftDown: Icon;
+export const CornerLeftUp: Icon;
+export const CornerRightDown: Icon;
+export const CornerRightUp: Icon;
+export const CornerUpLeft: Icon;
+export const CornerUpRight: Icon;
+export const Cpu: Icon;
+export const CreditCard: Icon;
+export const Crop: Icon;
+export const Crosshair: Icon;
+export const Database: Icon;
+export const Delete: Icon;
+export const Disc: Icon;
+export const DollarSign: Icon;
+export const Download: Icon;
+export const DownloadCloud: Icon;
+export const Droplet: Icon;
+export const Edit: Icon;
+export const Edit2: Icon;
+export const Edit3: Icon;
+export const ExternalLink: Icon;
+export const Eye: Icon;
+export const EyeOff: Icon;
+export const Facebook: Icon;
+export const FastForward: Icon;
+export const Feather: Icon;
+export const Figma: Icon;
+export const File: Icon;
+export const FileMinus: Icon;
+export const FilePlus: Icon;
+export const FileText: Icon;
+export const Film: Icon;
+export const Filter: Icon;
+export const Flag: Icon;
+export const Folder: Icon;
+export const FolderMinus: Icon;
+export const FolderPlus: Icon;
+export const Framer: Icon;
+export const Frown: Icon;
+export const Gift: Icon;
+export const GitBranch: Icon;
+export const GitCommit: Icon;
+export const Github: Icon;
+export const Gitlab: Icon;
+export const GitMerge: Icon;
+export const GitPullRequest: Icon;
+export const Globe: Icon;
+export const Grid: Icon;
+export const HardDrive: Icon;
+export const Hash: Icon;
+export const Headphones: Icon;
+export const Heart: Icon;
+export const HelpCircle: Icon;
+export const Hexagon: Icon;
+export const Home: Icon;
+export const Image: Icon;
+export const Inbox: Icon;
+export const Info: Icon;
+export const Instagram: Icon;
+export const Italic: Icon;
+export const Key: Icon;
+export const Layers: Icon;
+export const Layout: Icon;
+export const LifeBuoy: Icon;
+export const Link: Icon;
+export const Link2: Icon;
+export const Linkedin: Icon;
+export const List: Icon;
+export const Loader: Icon;
+export const Lock: Icon;
+export const LogIn: Icon;
+export const LogOut: Icon;
+export const Mail: Icon;
+export const Map: Icon;
+export const MapPin: Icon;
+export const Maximize: Icon;
+export const Maximize2: Icon;
+export const Meh: Icon;
+export const Menu: Icon;
+export const MessageCircle: Icon;
+export const MessageSquare: Icon;
+export const Mic: Icon;
+export const MicOff: Icon;
+export const Minimize: Icon;
+export const Minimize2: Icon;
+export const Minus: Icon;
+export const MinusCircle: Icon;
+export const MinusSquare: Icon;
+export const Monitor: Icon;
+export const Moon: Icon;
+export const MoreHorizontal: Icon;
+export const MoreVertical: Icon;
+export const MousePointer: Icon;
+export const Move: Icon;
+export const Music: Icon;
+export const Navigation: Icon;
+export const Navigation2: Icon;
+export const Octagon: Icon;
+export const Package: Icon;
+export const Paperclip: Icon;
+export const Pause: Icon;
+export const PauseCircle: Icon;
+export const PenTool: Icon;
+export const Percent: Icon;
+export const Phone: Icon;
+export const PhoneCall: Icon;
+export const PhoneForwarded: Icon;
+export const PhoneIncoming: Icon;
+export const PhoneMissed: Icon;
+export const PhoneOff: Icon;
+export const PhoneOutgoing: Icon;
+export const PieChart: Icon;
+export const Play: Icon;
+export const PlayCircle: Icon;
+export const Plus: Icon;
+export const PlusCircle: Icon;
+export const PlusSquare: Icon;
+export const Pocket: Icon;
+export const Power: Icon;
+export const Printer: Icon;
+export const Radio: Icon;
+export const RefreshCcw: Icon;
+export const RefreshCw: Icon;
+export const Repeat: Icon;
+export const Rewind: Icon;
+export const RotateCcw: Icon;
+export const RotateCw: Icon;
+export const Rss: Icon;
+export const Save: Icon;
+export const Scissors: Icon;
+export const Search: Icon;
+export const Send: Icon;
+export const Server: Icon;
+export const Settings: Icon;
+export const Share: Icon;
+export const Share2: Icon;
+export const Shield: Icon;
+export const ShieldOff: Icon;
+export const ShoppingBag: Icon;
+export const ShoppingCart: Icon;
+export const Shuffle: Icon;
+export const Sidebar: Icon;
+export const SkipBack: Icon;
+export const SkipForward: Icon;
+export const Slack: Icon;
+export const Slash: Icon;
+export const Sliders: Icon;
+export const Smartphone: Icon;
+export const Smile: Icon;
+export const Speaker: Icon;
+export const Square: Icon;
+export const Star: Icon;
+export const StopCircle: Icon;
+export const Sun: Icon;
+export const Sunrise: Icon;
+export const Sunset: Icon;
+export const Tablet: Icon;
+export const Tag: Icon;
+export const Target: Icon;
+export const Terminal: Icon;
+export const Thermometer: Icon;
+export const ThumbsDown: Icon;
+export const ThumbsUp: Icon;
+export const ToggleLeft: Icon;
+export const ToggleRight: Icon;
+export const Tool: Icon;
+export const Trash: Icon;
+export const Trash2: Icon;
+export const Trello: Icon;
+export const TrendingDown: Icon;
+export const TrendingUp: Icon;
+export const Triangle: Icon;
+export const Truck: Icon;
+export const Tv: Icon;
+export const Twitch: Icon;
+export const Twitter: Icon;
+export const Type: Icon;
+export const Umbrella: Icon;
+export const Underline: Icon;
+export const Unlock: Icon;
+export const Upload: Icon;
+export const UploadCloud: Icon;
+export const User: Icon;
+export const UserCheck: Icon;
+export const UserMinus: Icon;
+export const UserPlus: Icon;
+export const Users: Icon;
+export const UserX: Icon;
+export const Video: Icon;
+export const VideoOff: Icon;
+export const Voicemail: Icon;
+export const Volume: Icon;
+export const Volume1: Icon;
+export const Volume2: Icon;
+export const VolumeX: Icon;
+export const Watch: Icon;
+export const Wifi: Icon;
+export const WifiOff: Icon;
+export const Wind: Icon;
+export const X: Icon;
+export const XCircle: Icon;
+export const XOctagon: Icon;
+export const XSquare: Icon;
+export const Youtube: Icon;
+export const Zap: Icon;
+export const ZapOff: Icon;
+export const ZoomIn: Icon;
+export const ZoomOut: Icon;
