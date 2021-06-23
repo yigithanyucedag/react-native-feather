@@ -3,3 +3,4 @@ src/tsdoc-metadata.json
 typings/
 *.log
 .DS_Store
+lib/

@@ -2,11 +2,11 @@
   "name": "react-native-feather",
   "version": "1.0.6",
   "description": "React Native component for Feather icons",
-  "main": "src/index.js",
-  "typings": "src/react-native-feather.d.ts",
+  "main": "lib/index.js",
+  "typings": "lib/react-native-feather.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "tsc -p tsconfig.json && npx api-extractor run --local && rimraf typings"
+    "prepare-icons": "git submodule update && svgr --native --icon --typescript -d src/icons feather/icons",
+    "prepublish": "npm run prepare-icons && tsc -p tsconfig.json && npx api-extractor run --local && rimraf typings"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,8 @@
   },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.16.1",
+    "@svgr/babel-plugin-remove-jsx-attribute": "^5.4.0",
+    "@svgr/cli": "^5.5.0",
     "@types/react": "^17.0.11",
     "react-native": "^0.64.2",
     "react-native-svg": "^12.1.1",
