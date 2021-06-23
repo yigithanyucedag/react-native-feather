@@ -3,7 +3,7 @@ import Svg, { Ellipse, Path, SvgProps } from "react-native-svg";
 
 /**
  * @param {SvgProps} props
- * @returns React.ComponentClass<SvgProps>
+ * @returns JSX.Element
  */
 export const Database = (props) => {
   return (

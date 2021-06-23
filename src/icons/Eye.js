@@ -3,7 +3,7 @@ import Svg, { Path, Circle, SvgProps } from "react-native-svg";
 
 /**
  * @param {SvgProps} props
- * @returns React.ComponentClass<SvgProps>
+ * @returns JSX.Element
  */
 export const Eye = (props) => {
   return (

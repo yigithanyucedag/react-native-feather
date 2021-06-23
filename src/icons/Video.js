@@ -3,7 +3,7 @@ import Svg, { Path, Rect, SvgProps } from "react-native-svg";
 
 /**
  * @param {SvgProps} props
- * @returns React.ComponentClass<SvgProps>
+ * @returns JSX.Element
  */
 export const Video = (props) => {
   return (

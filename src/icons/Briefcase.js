@@ -3,7 +3,7 @@ import Svg, { Rect, Path, SvgProps } from "react-native-svg";
 
 /**
  * @param {SvgProps} props
- * @returns React.ComponentClass<SvgProps>
+ * @returns JSX.Element
  */
 export const Briefcase = (props) => {
   return (

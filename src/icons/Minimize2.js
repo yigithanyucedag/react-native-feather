@@ -3,7 +3,7 @@ import Svg, { Path, SvgProps } from "react-native-svg";
 
 /**
  * @param {SvgProps} props
- * @returns React.ComponentClass<SvgProps>
+ * @returns JSX.Element
  */
 export const Minimize2 = (props) => {
   return (
