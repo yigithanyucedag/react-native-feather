@@ -1,10 +1,13 @@
 {
   // Change this to match your project
-  "include": ["src/**/*"],
+  "include": ["src/icons/*"],
   "compilerOptions": {
+    "target": "ESNext",
+    "moduleResolution": "Node",
     "allowJs": true,
     "declaration": true,
-    "emitDeclarationOnly": true,
+    "jsx": "react-native",
+    "outDir": "lib",
     "declarationDir": "typings"
   }
 }
