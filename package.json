@@ -1,6 +1,6 @@
 {
   "name": "react-native-feather",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "React Native component for Feather icons",
   "main": "lib/index.js",
   "typings": "lib/react-native-feather.d.ts",
