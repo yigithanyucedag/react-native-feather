@@ -6,19 +6,7 @@ on:
       - v*
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: recursive
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 14.x
-      - run: npm ci
-
   publish-npm:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
