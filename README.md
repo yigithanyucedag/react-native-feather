@@ -64,9 +64,36 @@ Any [Svg property](https://github.com/react-native-community/react-native-svg#co
 
 ### Author
 <!-- readme: yigithanyucedag -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/yigithanyucedag">
+            <img src="https://avatars.githubusercontent.com/u/25598773?v=4" width="100;" alt="yigithanyucedag"/>
+            <br />
+            <sub><b>Yiğithan</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: yigithanyucedag -end -->
 
 ## Contributors
 
 <!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/yigithanyucedag">
+            <img src="https://avatars.githubusercontent.com/u/25598773?v=4" width="100;" alt="yigithanyucedag"/>
+            <br />
+            <sub><b>Yiğithan</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/FDiskas">
+            <img src="https://avatars.githubusercontent.com/u/468006?v=4" width="100;" alt="FDiskas"/>
+            <br />
+            <sub><b>Vytenis</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
