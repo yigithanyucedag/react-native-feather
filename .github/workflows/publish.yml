@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - uses: actions/setup-node@v2
         with:
           node-version: 14.x
@@ -28,7 +30,6 @@ jobs:
           registry-url: https://registry.npmjs.org
           always-auth: true
       - run: npm ci
-      - run: npm run prepublish
       - run: npm version "${GITHUB_REF:11}" --no-git-tag-version
       - run: npm publish --access public
         env:
