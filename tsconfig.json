@@ -1,5 +1,4 @@
 {
-  // Change this to match your project
   "include": ["src/icons/*"],
   "compilerOptions": {
     "target": "ESNext",
