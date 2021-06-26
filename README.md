@@ -66,11 +66,6 @@ Any [Svg property](https://github.com/react-native-community/react-native-svg#co
 <!-- readme: yigithanyucedag -start -->
 <!-- readme: yigithanyucedag -end -->
 
-## Collaborators
-
-<!-- readme: collaborators -start -->
-<!-- readme: collaborators -end -->
-
 ## Contributors
 
 <!-- readme: contributors -start -->
