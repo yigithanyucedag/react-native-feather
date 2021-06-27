@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "typings": "lib/react-native-feather.d.ts",
   "scripts": {
-    "prepare-icons": "git submodule update && svgr --native --icon --typescript -d src/icons feather/icons",
+    "prepare-icons": "svgr --native --icon --typescript -d src/icons node_modules/feather-icons/dist/icons",
     "prepublish": "npm run prepare-icons && tsc -p tsconfig.json && npx api-extractor run --local && rimraf typings src"
   },
   "repository": {
@@ -37,6 +37,7 @@
     "@svgr/babel-plugin-remove-jsx-attribute": "^5.4.0",
     "@svgr/cli": "^5.5.0",
     "@types/react": "^17.0.11",
+    "feather-icons": "^4.28.0",
     "react-native": "^0.64.2",
     "react-native-svg": "^12.1.1",
     "rimraf": "^3.0.2",
