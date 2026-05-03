@@ -1,12 +1,24 @@
 {
-  "include": ["src/icons/*"],
   "compilerOptions": {
-    "target": "ESNext",
-    "moduleResolution": "Node",
-    "allowJs": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022", "DOM"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
     "declaration": true,
-    "jsx": "react-native",
-    "outDir": "lib",
-    "declarationDir": "typings"
-  }
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "noEmit": true
+  },
+  "include": ["src/**/*", "tests/**/*", "scripts/**/*", "types/**/*"]
 }

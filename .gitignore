@@ -1,6 +1,8 @@
 node_modules/
-typings/
+dist/
+coverage/
 *.log
 .DS_Store
-lib/
-src/
+.npm
+.vscode/
+.idea/
