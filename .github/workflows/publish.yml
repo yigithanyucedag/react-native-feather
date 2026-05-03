@@ -1,41 +1,57 @@
-name: Publish Package
+name: Publish to npm
 
 on:
-  create:
-    tags:
-      - v*
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+  id-token: write
 
 jobs:
-  publish-npm:
+  publish:
     runs-on: ubuntu-latest
+    environment: npm-publish
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
         with:
-          persist-credentials: false
-          fetch-depth: 0
-          submodules: recursive
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 14.x
+          node-version: 22
           registry-url: https://registry.npmjs.org
-          always-auth: true
+          cache: npm
+
+      - name: Sync package.json version with tag
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          VERSION="${TAG#v}"
+          echo "Publishing version $VERSION"
+          npm version "$VERSION" --no-git-tag-version --allow-same-version
+
       - run: npm ci
-      - run: npm version "${GITHUB_REF:11}" --no-git-tag-version
-      - run: npm publish --access public
+
+      - run: npm run build:icons
+
+      - run: npm run lint
+
+      - run: npm run typecheck
+
+      - run: npm test
+
+      - run: npm run build
+
+      - name: Publish to npm
+        run: npm publish --access public --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Commit files
-        run: |
-          git config --local user.email "yigithanyucedag@gmail.com"
-          git config --local user.name "yigithanyucedag"
-          git commit -m "Release: ${GITHUB_REF:11}" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
-          
-      - uses: akhilmhdh/contributors-readme-action@v2.1.2
+      - name: Create GitHub release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          gh release create "$TAG" \
+            --title "$TAG" \
+            --generate-notes \
+            --verify-tag
